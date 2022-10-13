@@ -1,0 +1,18 @@
+@mixin button($color) {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: $veryLightGray;
+  color: $color;
+  cursor: pointer;
+  display: inline-block;
+  &:hover {
+    background-color: transparent;
+    color: $veryLightGray;
+    border: 2px solid $veryLightGray;
+    transition-duration: 0.3s;
+  }
+  @media only screen and (max-width: 992px) {
+    padding: 12px 30px;
+  }
+}
