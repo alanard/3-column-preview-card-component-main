@@ -23,14 +23,15 @@ main {
       .car-type {
         font-family: "Big Shoulders Display", cursive;
         text-transform: uppercase;
-        font-size: 1.875rem;
-        margin-top: 2.625rem;
-        margin-bottom: 2.5rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
         color: $veryLightGray;
       }
       .description {
-        margin-bottom: 5.375rem;
+        margin-bottom: 5rem;
         color: $transparentWhite;
+        line-height: 1.8;
       }
       .sedans-btn {
         @include button($brightOrange);
